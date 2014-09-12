@@ -11,6 +11,15 @@
         text-transform: uppercase;
         display: block;
     }
+    h2{
+        font-size: 24px;
+        margin-bottom: 25px;
+        display: block;
+        color: rgba(0, 0, 0, 0.7);
+        font-family: "Lato";
+        font-weight: 300;
+        text-align: center;
+    }
     .programacao-list{
         width: 500px;
         display: inline-block;
@@ -65,7 +74,7 @@
         }
         h6{
             width: 225px;
-            text-align: left !important; 
+            text-align: left !important;
             display: inline-block;
             margin: 0 10px;
             &.destaque{

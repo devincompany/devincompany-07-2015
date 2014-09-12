@@ -35,9 +35,9 @@ module.exports = function( grunt ) {
     imageoptim: {
       dynamic: {
         options: {
-          jpegMini: true,
           imageAlpha: true,
           quitAfter: true
+          // jpegMini: true,
         },
         src: ['res/images/']
       }

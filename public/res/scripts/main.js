@@ -1,6 +1,6 @@
 jQuery(function(){
-    var endDate = "May 31, 2014 09:00:00";
-    jQuery('.countdown').countdown({ 
+    var endDate = "Sep 20, 2014 09:00:00";
+    jQuery('.countdown').countdown({
         date: endDate,
         render: function(data) {
             var elDay = document.getElementById('dias'),
@@ -29,7 +29,7 @@ jQuery(function(){
         mapTypeControlOptions: {
             mapTypeIds: ['Styled']
         },
-        center: new google.maps.LatLng(-19.9298691,-43.9442987),
+        center: new google.maps.LatLng(-19.9453147,-43.9225685),
         zoom: 16,
         disableDefaultUI: true,
         mapTypeId: 'Styled'
@@ -38,7 +38,7 @@ jQuery(function(){
     var map = new google.maps.Map(div, options);
 
     new google.maps.Marker({
-        position: new google.maps.LatLng(-19.9298691,-43.9442987),
+        position: new google.maps.LatLng(-19.9453147,-43.9225685),
         map: map
     });
 

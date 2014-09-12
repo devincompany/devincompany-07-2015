@@ -2,6 +2,13 @@
     background-color: #EFF0F2;
     text-align: center;
     border-top: 1px solid #e7e9ea;
+    &.inverse{
+        background-color:#292C33;
+
+        .legend{
+            color: #FFF;
+        }
+    }
     .legend{
         color: rgba(0, 0, 0, 0.7);
         font-family: "Lato";

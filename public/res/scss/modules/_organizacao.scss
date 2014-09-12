@@ -17,9 +17,10 @@
         overflow: hidden;
         text-align: center;
         li{
-            margin:5px 15px;
+            margin:20px 15px;
             display: inline-block;
             width: 90px;
+            @include box-shadow(0 0 20px 0px #000);
         }
         a{
             display: block;
