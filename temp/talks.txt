@@ -1,0 +1,2 @@
+http://www.slideshare.net/brunotrecenti/micro-servicos-com-nodejs
+http://www.slideshare.net/lucasmezencio/controle-de-verso-com-git-e-como-otimi

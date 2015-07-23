@@ -32,7 +32,7 @@
             position: absolute;
             display: block;
             width: 1px;
-            height: 115%;
+            height: 110%;
             top: 0;
             left: -16px;
             right: 0;
@@ -47,6 +47,7 @@
             left: 69px;
         }
         time, h6{
+            vertical-align: middle;
             font-family: "Lato";
             font-weight: 300;
             font-size: 21px;
@@ -77,6 +78,7 @@
             text-align: left !important;
             display: inline-block;
             margin: 0 10px;
+            line-height: 1.1em;
             &.destaque{
                 color:  #3a3a47;
             }
